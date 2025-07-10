@@ -72,3 +72,4 @@ Using this code with a real Discord user account violates Discord's Terms of Ser
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+Please star this repo if its helpful, would help me alot
