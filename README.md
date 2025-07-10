@@ -1,4 +1,4 @@
-# Grow a garden stock forwarder
+# Grow a garden stock forwarder to your own server
 
 A tool for forwarding messages from one Discord channel to another via webhook, with proper role mention handling.
 # (THE DESTINATED SERVER MUST BE YOUR SERVER/HAVE ADMIN ACCESS)
@@ -11,6 +11,8 @@ A tool for forwarding messages from one Discord channel to another via webhook, 
 - Runs continuously in the background
 
 ## Setup
+
+Must join this server https://discord.gg/gagstockf with a alternative discord account (dont use your main account)
 
 ### Prerequisites
 
@@ -45,9 +47,9 @@ This will create a `role_map.json` file that maps roles between your source and 
 Required variables:
 - `SOURCE_CHANNEL_ID` - ID of the channel to read from
 - `WEBHOOK_URL` - Webhook URL to send messages to
-- `USER_TOKEN` - Your Discord token
+- `USER_TOKEN` - Change it to your discord token
 - `SOURCE_SERVER_ID` - ID of the source server
-- `DESTINATION_SERVER_ID` - ID of the destination server
+- `DESTINATION_SERVER_ID` - ID of the destination server (Your server id)
 
 ### Running
 
@@ -60,16 +62,6 @@ For development/testing (with confirmation prompt):
 ```bash
 python direct_account_api.py
 ```
-
-## Deployment
-
-This repository is configured for easy deployment on Railway.app:
-
-1. Fork this repository
-2. Sign up on [Railway.app](https://railway.app/)
-3. Create a new project from your GitHub repository
-4. Set the required environment variables
-5. Deploy!
 
 ## ⚠️ Educational Warning
 
