@@ -1,7 +1,7 @@
 # Grow a garden stock forwarder
 
 A tool for forwarding messages from one Discord channel to another via webhook, with proper role mention handling.
-
+# (THE DESTINATED SERVER MUST BE YOUR SERVER/HAVE ADMIN ACCESS)
 ## Features
 
 - Forwards messages from a source Discord channel to a destination webhook
