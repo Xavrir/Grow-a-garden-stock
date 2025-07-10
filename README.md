@@ -1,4 +1,4 @@
-# Discord Message Forwarder
+# Grow a garden stock forwarder
 
 A tool for forwarding messages from one Discord channel to another via webhook, with proper role mention handling.
 
